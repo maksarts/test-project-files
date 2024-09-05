@@ -21,7 +21,7 @@
         <mxCell id="unwX76k_dKx1Uzxo_52H-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="380" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="unwX76k_dKx1Uzxo_52H-6" value="@TelegrabBot" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="unwX76k_dKx1Uzxo_52H-6" value="@TelegramBot" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="260" y="330" width="110" height="190" as="geometry" />
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-8" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
