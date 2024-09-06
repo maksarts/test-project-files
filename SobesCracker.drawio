@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Страница — 1" id="NHzT-cjriv-6d1ryG_HA">
-    <mxGraphModel dx="1805" dy="342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1694" dy="283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,14 +109,14 @@
             <mxPoint x="669" y="463.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="unwX76k_dKx1Uzxo_52H-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="unwX76k_dKx1Uzxo_52H-21" edge="1">
+        <mxCell id="unwX76k_dKx1Uzxo_52H-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="669" y="517.5" as="targetPoint" />
+            <mxPoint x="674" y="516" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="639" y="522.5" />
-              <mxPoint x="639" y="518.5" />
-              <mxPoint x="669" y="518.5" />
+              <mxPoint x="624" y="522" />
+              <mxPoint x="624" y="516" />
             </Array>
+            <mxPoint x="583" y="522.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="unwX76k_dKx1Uzxo_52H-21" edge="1">
@@ -153,7 +153,7 @@
           <mxGeometry x="10" y="27.5" width="160" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-37" value="sub/unsub topic" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="unwX76k_dKx1Uzxo_52H-33" vertex="1">
-          <mxGeometry x="10" y="81.25" width="160" height="32.5" as="geometry" />
+          <mxGeometry x="10" y="80" width="160" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-38" value="offered questions topic" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="unwX76k_dKx1Uzxo_52H-33" vertex="1">
           <mxGeometry x="10" y="137.5" width="160" height="32.5" as="geometry" />
