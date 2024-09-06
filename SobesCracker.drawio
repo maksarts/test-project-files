@@ -206,7 +206,7 @@
           <mxGeometry x="879" y="1000" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-57" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=90;arrowWidth=0.5391343826593205;arrowSize=0.2583317068478932;" parent="1" vertex="1">
-          <mxGeometry x="875.94" y="908.06" width="106.12" height="60" as="geometry" />
+          <mxGeometry x="887.97" y="920.09" width="82.06" height="60" as="geometry" />
         </mxCell>
         <mxCell id="do9fAFMaDxFVRyvk2iv3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="unwX76k_dKx1Uzxo_52H-70" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -227,8 +227,8 @@
         <mxCell id="unwX76k_dKx1Uzxo_52H-80" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="1074.3700000000001" y="723.62" width="61.25" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="unwX76k_dKx1Uzxo_52H-87" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Question&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uuid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;TEXT content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TEXT answer&lt;br&gt;TEXT&amp;nbsp;type (java or smth)&lt;br&gt;DATE created_at&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="854" y="770" width="160" height="100" as="geometry" />
+        <mxCell id="unwX76k_dKx1Uzxo_52H-87" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Question&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uuid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;TEXT content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TEXT answer&lt;br&gt;TEXT&amp;nbsp;type (java or smth)&lt;br&gt;TEXT grade&lt;br&gt;DATE created_at&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="854" y="770" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="DGOtOLyAxqDi3p21VE_j-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="unwX76k_dKx1Uzxo_52H-88" target="unwX76k_dKx1Uzxo_52H-70">
           <mxGeometry relative="1" as="geometry" />
