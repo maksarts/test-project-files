@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Страница — 1" id="NHzT-cjriv-6d1ryG_HA">
-    <mxGraphModel dx="1500" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2404" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="unwX76k_dKx1Uzxo_52H-95" value="Database" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="620" width="420" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="unwX76k_dKx1Uzxo_52H-1" value="&lt;b&gt;Функциональные требования&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- подписка на ежедневную рассылку вопросов&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- (настройка количества и частоты вопросов)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- отписка от рассылки вопросов&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- предложить свой вопрос&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- просмотр всего списка вопросов (по ссылке)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- пользовательские сессии:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- пометить вопрос как ненужный&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- просмотреть ненужные вопросы, редактировать&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- добавить свой локальный вопрос&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="10" width="300" height="170" as="geometry" />
+        <mxCell id="unwX76k_dKx1Uzxo_52H-1" value="&lt;b&gt;Функциональные требования&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- подписка на ежедневную рассылку вопросов&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(только основных)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- возможность повторить сегодняшний вопрос&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- (настройка количества и частоты вопросов)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- отписка от рассылки вопросов&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- предложить свой вопрос&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- просмотр всего списка вопросов (по ссылке)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- &quot;начать подготовку&quot; -&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;итерироваться по вопросам (включая личные)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- пометить вопрос как ненужный&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- просмотреть ненужные вопросы, редактировать&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- добавить свой локальный вопрос&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="10" width="310" height="200" as="geometry" />
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-2" value="&lt;b&gt;Нефункциональные требования&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Телеграм-бот&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Одностраничное приложение по ссылке&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Хранение вопросов&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Хранение пользовательских сессий и настроек&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Большинство запросов - взаимодействие с&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;персональными настройками, добавление личных&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;вопросов&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Запрос на добавление нового вопроса - может подождать&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Регистрация - происходит только раз&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="10" width="350" height="190" as="geometry" />
+          <mxGeometry x="320" y="10" width="350" height="190" as="geometry" />
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="unwX76k_dKx1Uzxo_52H-56">
           <mxGeometry relative="1" as="geometry">
@@ -85,10 +85,10 @@
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-16" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="417.5" as="sourcePoint" />
-            <mxPoint x="280" y="417.5" as="targetPoint" />
+            <mxPoint x="110" y="407.5" as="sourcePoint" />
+            <mxPoint x="280" y="407.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="250" y="417.5" />
+              <mxPoint x="250" y="407.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -99,10 +99,10 @@
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-19" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="447.5" as="sourcePoint" />
-            <mxPoint x="280" y="447.5" as="targetPoint" />
+            <mxPoint x="110" y="427.5" as="sourcePoint" />
+            <mxPoint x="280" y="427.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="250" y="447.5" />
+              <mxPoint x="250" y="427.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -256,8 +256,8 @@
         <mxCell id="unwX76k_dKx1Uzxo_52H-87" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Question&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uuid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;TEXT content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TEXT answer&lt;br&gt;VARCHAR type (java or smth)&lt;br&gt;DATE created_at&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="460" y="890" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="unwX76k_dKx1Uzxo_52H-88" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Subscriber&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uuid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;VARCHAR nickname&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;VARCHAR chatId&lt;br&gt;DATE created_at&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="770" y="890" width="220" height="90" as="geometry" />
+        <mxCell id="unwX76k_dKx1Uzxo_52H-88" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Subscriber&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uuid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;VARCHAR nickname&lt;br&gt;VARCHAR name&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22edgeStyle%3DsegmentEdgeStyle%3BendArrow%3Dclassic%3Bhtml%3D1%3Bcurved%3D0%3Brounded%3D0%3BendSize%3D8%3BstartSize%3D8%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22110%22%20y%3D%22450%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22280%22%20y%3D%22450%22%20as%3D%22targetPoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22250%22%20y%3D%22450%22%2F%3E%3C%2FArray%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22getTodayMessage()%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%220.0311%22%20y%3D%22-3%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;VARCHAR chatId&lt;br&gt;DATE created_at&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="770" y="890" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-89" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Settings&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;uuid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;UUID userId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;JSON settings&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="960" y="1020" width="160" height="110" as="geometry" />
@@ -280,6 +280,34 @@
               <mxPoint x="410" y="850" />
               <mxPoint x="720" y="850" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unwX76k_dKx1Uzxo_52H-98" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="450" as="sourcePoint" />
+            <mxPoint x="280" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unwX76k_dKx1Uzxo_52H-99" value="getTodayMessage()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="unwX76k_dKx1Uzxo_52H-98">
+          <mxGeometry x="0.0311" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unwX76k_dKx1Uzxo_52H-100" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="466.67" as="sourcePoint" />
+            <mxPoint x="280" y="466.67" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="466.67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unwX76k_dKx1Uzxo_52H-101" value="startTraining()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="unwX76k_dKx1Uzxo_52H-100">
+          <mxGeometry x="0.0311" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
