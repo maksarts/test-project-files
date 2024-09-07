@@ -158,7 +158,7 @@
         <mxCell id="unwX76k_dKx1Uzxo_52H-66" value="messages topic" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" parent="unwX76k_dKx1Uzxo_52H-33" vertex="1">
           <mxGeometry x="10" y="197.5" width="160" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="unwX76k_dKx1Uzxo_52H-43" value="GlobalService" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="unwX76k_dKx1Uzxo_52H-43" value="SubscribionService" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1050" y="617.5" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="unwX76k_dKx1Uzxo_52H-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="unwX76k_dKx1Uzxo_52H-37" target="unwX76k_dKx1Uzxo_52H-43" edge="1">
