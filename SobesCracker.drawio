@@ -268,6 +268,9 @@
         <mxCell id="DGOtOLyAxqDi3p21VE_j-4" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Course&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;TEXT&amp;nbsp;name&lt;br&gt;TEXT types&lt;br&gt;INT min_grade&lt;br&gt;INT max_grade&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="LJ0WtUnh6nf4_cgdIdeV-21" vertex="1">
           <mxGeometry x="230" y="320" width="138.44" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="J2m8U2f9suBuhOFcjtek-8" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Type&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;TEXT&amp;nbsp;name&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="LJ0WtUnh6nf4_cgdIdeV-21">
+          <mxGeometry x="71.56" y="320" width="138.44" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="LJ0WtUnh6nf4_cgdIdeV-22" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="1323.44" y="840" width="91.56" height="30" as="geometry" />
         </mxCell>
