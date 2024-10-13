@@ -1,9 +1,111 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Страница — 1" id="VeJcSM31CE5ULs4fx9Ry">
-    <mxGraphModel>
+    <mxGraphModel dx="1912" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Видео - CDN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Расчеты:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- общее число пользователей&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- оборот данных на одного пользователя&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- оборот данных в сутки&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- прирост данных в сутки&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- как храним&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- отдача данных в сутки&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-2" value="Мессенджер&lt;div&gt;&lt;br&gt;&lt;div&gt;ФТ:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- отправлять и получать сообщения&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- чаты 1:1 и группы до 500&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-учетная запись&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- добавить в друзья?&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- блокировка пользователей?&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- поиск по никнеймам?&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- чс за скобками&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- отправлять можно текст и картинки&lt;/div&gt;&lt;div&gt;НеФТ:&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- 10 млн активных пользователей&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- 1 пользователь пишет 10 людям в день&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- по 100 сообщений&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RPS: 100*10*10 000 000 / 24*60*60 = 120.000 RPS&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff1e05&quot;&gt;- история сообщений&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff1e05&quot;&gt;- пуш уведомления&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff1e05&quot;&gt;- поиск сообщений&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff1e05&quot;&gt;- индикатор онлайн&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff1e05&quot;&gt;- размер текстового сообщений 100 символов по 2 байта -&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff1e05&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 200 байт 1 сообщение&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;120.000 * 200 = 22 Мб/сек, 2Гб текста в день&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="200" width="350" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-3" target="eisco_ME9Cg9zlp9eTQ7-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="750" />
+              <mxPoint x="335" y="750" />
+              <mxPoint x="335" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="700" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-4" target="eisco_ME9Cg9zlp9eTQ7-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="795" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-7" target="eisco_ME9Cg9zlp9eTQ7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-7" target="eisco_ME9Cg9zlp9eTQ7-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-7" value="messages API" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-11" value="websocket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-19" target="eisco_ME9Cg9zlp9eTQ7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-19" value="registration &amp;amp; auth API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-22" value="Users DB (SQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="120" y="970" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-19" target="eisco_ME9Cg9zlp9eTQ7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-27" value="WebSocket storage (NoSQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-11" target="eisco_ME9Cg9zlp9eTQ7-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-29" value="MessagesDB (SQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="510" y="540" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.9999999999998" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-30" value="S3 images storage" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="500" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-11" target="eisco_ME9Cg9zlp9eTQ7-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-36" target="eisco_ME9Cg9zlp9eTQ7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-36" value="MQ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="810" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-40" target="eisco_ME9Cg9zlp9eTQ7-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-40" value="MQ download" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-42" value="downloader" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.481;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-42" target="eisco_ME9Cg9zlp9eTQ7-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-42" target="eisco_ME9Cg9zlp9eTQ7-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="690" />
+              <mxPoint x="613" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eisco_ME9Cg9zlp9eTQ7-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eisco_ME9Cg9zlp9eTQ7-29" target="eisco_ME9Cg9zlp9eTQ7-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
