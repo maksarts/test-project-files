@@ -358,6 +358,9 @@
         <mxCell id="c25r9Y8_FzX_gqOAeqk_-121" value="celebrity feed" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="825" y="2018" width="90" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="c25r9Y8_FzX_gqOAeqk_-123" value="фейсбук&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- новостная лента&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1478" width="120" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
