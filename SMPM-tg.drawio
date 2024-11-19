@@ -48,7 +48,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-aS4hXE3X6MHYE7NE8yZ-13" value="upcoming posts" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
-          <mxGeometry x="430" y="430" width="116.67" height="35" as="geometry" />
+          <mxGeometry x="450" y="430" width="116.67" height="35" as="geometry" />
         </mxCell>
         <mxCell id="-aS4hXE3X6MHYE7NE8yZ-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-aS4hXE3X6MHYE7NE8yZ-4" target="-aS4hXE3X6MHYE7NE8yZ-13">
           <mxGeometry relative="1" as="geometry">
